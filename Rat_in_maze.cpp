@@ -21,7 +21,11 @@ int main()
         for (int j = 0; j < n; j++)
         {
             cin>>arr[i][j];
-        }
+        }// 1 0 1 0 1
+// 1 1 1 1 1
+// 0 1 0 1 0
+// 1 0 0 1 1
+// 1 1 1 0 1
     }
     
     int** solArr= new int*[n];
@@ -86,8 +90,3 @@ bool RatinMaze(int** arr,int x,int y, int n, int** solArr)
     return false;    
 }
 
-// 1 0 1 0 1
-// 1 1 1 1 1
-// 0 1 0 1 0
-// 1 0 0 1 1
-// 1 1 1 0 1
